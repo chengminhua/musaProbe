@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77", "wheel", "packaging>=24.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musaprobe"
+version = "0.1.0"
+description = "musaProbe: capture, compare and inspect PyTorch/MUSA numerical behavior"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "chengminhua"}]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23"]
+
+[project.urls]
+Repository = "https://github.com/chengminhua/musaProbe"
+Issues = "https://github.com/chengminhua/musaProbe/issues"
+Changelog = "https://github.com/chengminhua/musaProbe/blob/main/CHANGELOG.md"
+
+[project.scripts]
+musaprobe = "musaprobe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

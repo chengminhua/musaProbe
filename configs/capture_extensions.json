@@ -1,0 +1,23 @@
+{
+  "output_dir": "/data/musaprobe/runs",
+  "mode": "tensor",
+  "steps": [0, 1],
+  "modules": ["<root>"],
+  "apis": ["aten.add.Tensor", "aten.mul.Tensor", "aten.relu.default"],
+  "high_level_apis": ["torch.add", "torch.mul", "torch.relu"],
+  "dependency_graph": true,
+  "tensor_slices": [{
+    "module": "<root>",
+    "kind": "input",
+    "tensor_path": "args[0]",
+    "selection": [[0, 2, 1], [null, null, 1]]
+  }],
+  "async_write": true,
+  "async_queue_size": 2,
+  "history_size": 8,
+  "capture_gradients": true,
+  "stack_depth": 0,
+  "max_events": 300,
+  "max_tensor_bytes": 1048576,
+  "max_rank_bytes": 16777216
+}

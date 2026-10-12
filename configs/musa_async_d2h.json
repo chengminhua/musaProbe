@@ -1,0 +1,15 @@
+{
+  "output_dir": "/data/musaprobe/runs",
+  "mode": "tensor",
+  "steps": [0, 1],
+  "modules": ["<root>"],
+  "async_write": true,
+  "async_d2h": true,
+  "async_queue_size": 2,
+  "history_size": 8,
+  "stop_on_nonfinite": true,
+  "stack_depth": 0,
+  "max_events": 200,
+  "max_tensor_bytes": 1048576,
+  "max_rank_bytes": 16777216
+}

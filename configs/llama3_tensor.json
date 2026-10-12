@@ -1,0 +1,34 @@
+{
+  "output_dir": "/data/musaprobe/captures",
+  "run_id": "REPLACED_BY_LAUNCHER",
+  "steps": [
+    0
+  ],
+  "ranks": [
+    0,
+    4
+  ],
+  "microbatches": [
+    0
+  ],
+  "modules": [
+    "*decoder.layers.0",
+    "*decoder.layers.0.self_attention",
+    "*decoder.layers.0.mlp",
+    "*decoder.layers.0.self_attention.linear_proj"
+  ],
+  "exclude_modules": [],
+  "apis": [
+    "aten.add.Tensor",
+    "aten.mul.Tensor"
+  ],
+  "capture_inputs": true,
+  "capture_outputs": true,
+  "capture_gradients": true,
+  "capture_parameters": false,
+  "stack_depth": 8,
+  "max_tensor_bytes": 67108864,
+  "max_rank_bytes": 8589934592,
+  "max_events": 20000,
+  "mode": "tensor"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "musaProbe 使用"
+  short_description: "使用 musaProbe 采集张量、比较数值差异并解释精度排查报告"
+  default_prompt: "使用 $musaprobe-usage 根据当前任务的模型或采集数据完成精度排查，并说明结果与证据范围。"

@@ -1,0 +1,8 @@
+{
+  "rank": 0,
+  "step": 0,
+  "microbatch": 0,
+  "module": "*decoder.layers.0",
+  "kind": "add",
+  "value": 0.1
+}

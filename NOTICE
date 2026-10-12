@@ -1,0 +1,20 @@
+musaProbe
+Copyright 2026 chengminhua
+
+This project is licensed under the Apache License, Version 2.0.
+See the LICENSE file for the full license text.
+
+Design acknowledgement
+The precision-debugging design and some interface conventions of musaProbe
+were informed by the public documentation and source code of msProbe.
+The capture implementation, data format, offline comparison and reporting
+were separately implemented for PyTorch/MUSA.
+Reference: https://gitcode.com/Ascend/msprobe
+Reference commit: 7e8833c18dcdeba7d40f4ea809667169191376b5
+
+musaProbe is independently maintained. References to third-party projects,
+vendors or compatibility do not imply official affiliation, partnership or
+endorsement. Third-party names and trademarks belong to their respective owners.
+
+This acknowledgement is informational and does not modify the license of
+either project or replace applicable third-party license obligations.

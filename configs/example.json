@@ -1,0 +1,19 @@
+{
+  "output_dir": "/data/musaprobe/runs",
+  "run_id": "replace_with_unique_run_id",
+  "mode": "statistics",
+  "steps": [2, 3],
+  "microbatches": [0],
+  "ranks": null,
+  "modules": ["*"],
+  "exclude_modules": [],
+  "apis": [],
+  "capture_inputs": true,
+  "capture_outputs": true,
+  "capture_gradients": true,
+  "capture_parameters": false,
+  "stack_depth": 8,
+  "max_tensor_bytes": 67108864,
+  "max_rank_bytes": 8589934592,
+  "max_events": 100000
+}

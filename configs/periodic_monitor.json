@@ -1,0 +1,15 @@
+{
+  "output_dir": "/data/musaprobe/runs",
+  "mode": "statistics",
+  "modules": ["<root>"],
+  "monitor_start_step": 2,
+  "monitor_every_n_steps": 10,
+  "monitor_max_steps": 3,
+  "history_size": 8,
+  "stop_on_nonfinite": true,
+  "capture_gradients": true,
+  "stack_depth": 0,
+  "max_events": 300,
+  "max_tensor_bytes": 1048576,
+  "max_rank_bytes": 16777216
+}
